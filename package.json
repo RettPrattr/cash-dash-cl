@@ -1,0 +1,40 @@
+{
+  "name": "kapustin-dev-library",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "author": "Kapustin Team",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^2.5.0",
+    "@next/font": "13.1.6",
+    "@pbe/react-yandex-maps": "^1.2.3",
+    "antd": "^5.4.7",
+    "axios": "^1.3.3",
+    "dlv": "^1.1.3",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "flickity": "^2.3.0",
+    "force": "^0.0.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^9.0.2",
+    "next": "13.1.6",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-flickity-component": "^4.0.5",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.11.1",
+    "react-scroll": "^1.8.9",
+    "react-text-mask": "^5.5.0",
+    "react-yandex-maps": "^4.6.0",
+    "sass": "^1.58.1",
+    "socket.io": "^4.6.1",
+    "yup": "^0.32.11"
+  }
+}

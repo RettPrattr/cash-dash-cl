@@ -1,0 +1,110 @@
+.ymaps-2-1-79-map, .map, .map__map
+    border-radius: $baseRadius
+    overflow: hidden
+    
+
+
+.map
+    background: $White
+    padding: 100px 0px
+    z-index: 2
+    
+
+    &__info
+        // max-width: 410px
+        flex-shrink: 0
+        padding-left: 0px !important
+
+    &__mask
+        width: calc(100% + 2px)
+        height: calc(100% + 2px)
+        top: -1px
+        right: -1px
+        left: -1px
+        bottom: -1px
+        z-index: 100000
+
+        & + div
+            position: relative
+            z-index: 0
+
+    &__map
+        padding-right: 0px !important
+        border-radius: $baseRadius
+        overflow: visible !important
+        // width: 100% !important
+        height: 100% !important
+        // div > ymaps:first-child
+        //     display: none
+        // ymaps
+        //     height: 440px !important
+        div
+            width: 100% !important
+            height: 440px !important
+            & > div
+                height: 440px 
+
+    &__title
+        margin-bottom: 15px
+        color: $DarkedMain
+
+
+    &__text
+        color: $LightedBlack
+
+    &__group
+        margin-top: 20px
+
+        &-title
+            color: $LightedBlack
+            margin-bottom: 10px
+        
+        &-link
+            font-size: 24px
+            line-height: 29px
+            color: var(--dark-green)
+
+        &-socials
+            a:not(:last-child)
+                margin-right: 10px
+            a
+                width: 40px
+                height: 40px
+                border-radius: 10px
+                display: flex
+                align-items: center
+                justify-content: center
+                background: $Main
+
+                img
+                    width: auto
+                    height: auto
+    
+
+@media(max-width: 1000px)
+
+    .map
+        .container
+            padding: 0
+            flex-direction: column
+            gap: 0px
+
+        .map__info
+            max-width: none
+            padding: 20px 20px 70px !important
+        
+        .map__mask
+            display: none
+        
+        .map__map
+            border-radius: 36px 36px 0px 0px 
+            height: 375px
+
+    .ymaps-2-1-79-map, .map, .map__map
+        padding: 0 !important
+        width: 100vw !important
+        margin: 0 !important
+        border-radius: $baseRadius/2 $baseRadius/2 0 0 !important
+
+    .map
+        padding: 30px 0 0 !important

@@ -1,0 +1,51 @@
+.sideBarPage
+    padding: 0
+    overflow: hidden
+    .leftSide
+        min-width: 280px !important
+        width: 25vw
+        // background: $Black
+        top: 0
+        left: 0
+    .content
+        position: fixed
+        top: 0
+        left: 0
+        min-width: 280px !important
+        width: 25vw
+        height: 100vh
+        padding: $basePadding * 2
+    p,h1,h2,h3 
+        // color: $White
+        
+    .rightSide
+        width: 75vw
+ 
+        // background: $Black
+        img
+            margin-bottom: 5px
+            height: auto !important
+            &:last-child
+                margin-bottom: 0px
+@media (max-width: 800px)
+    .sideBarPage
+        flex-direction: column
+        .leftSide
+            width: 100%
+            height: fit-content
+            .content
+                height: fit-content
+                padding: 20px
+        .rightSide
+            width: 100%
+            height: fit-content
+            overflow: visible
+            img
+                padding: 0px 5px
+        .content
+            position: relative
+            width: 100%
+            padding: $basePadding
+            height: fit-content
+        .button 
+            display: none

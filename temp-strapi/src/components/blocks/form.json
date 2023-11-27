@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_blocks_forms",
+  "info": {
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "firstChoise": {
+      "displayName": "firstChoise",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.first-choise"
+    },
+    "secondChoise": {
+      "displayName": "secondChoise",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.second-choise"
+    },
+    "type": {
+      "type": "integer"
+    },
+    "firstChoiseSubtitle": {
+      "type": "string"
+    },
+    "secondChoiseSubtitle": {
+      "type": "string"
+    },
+    "inputsSubtitle": {
+      "type": "string"
+    },
+    "firstTextAreaSubtitle": {
+      "type": "string"
+    },
+    "secondTextAreaSubtitle": {
+      "type": "string"
+    }
+  }
+}

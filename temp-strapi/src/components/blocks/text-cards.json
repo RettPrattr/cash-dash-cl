@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_text_cards",
+  "info": {
+    "displayName": "TextCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cardProps": {
+      "displayName": "cardProps",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.card-props"
+    },
+    "type": {
+      "type": "integer"
+    }
+  }
+}

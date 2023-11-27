@@ -1,0 +1,84 @@
+
+    
+.button 
+    padding: 15px 20px
+    width: fit-content
+    height: fit-content !important
+    border-radius: $baseRadius / 2
+    font-weight: 500
+    // margin-right: 30px
+    border: 0
+    cursor: pointer
+    p, a 
+        text-transform: uppercase
+    &.white 
+        background: $White
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25)
+        color: $Main
+        &:not(.secondary):hover 
+            background: $Gray
+    &.main 
+        background: $Gray
+        color: $Black
+        border-radius: 1000px
+        &:not(.secondary):hover 
+            background: $Main
+.link-btn
+    width: 100% !important
+    height: auto
+    margin-top: 21px
+    margin-bottom: 14px
+    a
+        padding-top: 13px
+        padding-bottom: 13px
+        font-weight: 600
+        width: 90%
+        font-size: 18px
+        border-radius: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        &.green
+            color: $Background
+            background-color: $Green
+        &.violet
+            background-color: $Violet
+            color: $White
+        &.white
+            background-color: $White
+            color: $Background
+    
+.submit-btn
+    width: 100% !important
+    height: auto
+    margin-top: 0px
+    margin-bottom: 14px
+    button   
+        padding-top: 15px
+        padding-bottom: 15px
+        font-weight: 600
+        height: 53px
+        width: 90%
+        border-radius: 30px
+        font-size: 18px !important
+        display: flex
+        justify-content: center
+        align-items: center
+        outline: 0
+        border: none
+        cursor: pointer 
+        opacity: 1
+        &.green
+            color: $Background
+            background-color: $Green
+        &.violet
+            background-color: $Violet
+            color: $White
+        &.white
+            background-color: $White
+            color: $Background
+        &.disabled
+            opacity: 0.69
+
+.button *, button
+    user-select: none

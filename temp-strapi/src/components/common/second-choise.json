@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_second_choises",
+  "info": {
+    "displayName": "secondChoise"
+  },
+  "options": {},
+  "attributes": {
+    "choiseItem": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "Layout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BrandFooter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.brand-footer"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.header"
+    },
+    "layoutLinks": {
+      "displayName": "links",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.links"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+
+
+.story
+    .photoWrapper
+        margin-top: 5%
+    .subtitle
+        margin-top: 5%
+    p
+        opacity: 0.69
+
+.story-1
+    .subtitle 
+        margin-top: 5px
+.story-2
+    .two-angles-border
+        border-top-right-radius: $baseRadius
+        border-bottom-right-radius: $baseRadius
+    .left-side
+        padding-left: 0
+.story-4
+    img 
+        margin-bottom: 3%
+
+// Reverse setup
+.story.reverse
+    flex-direction: column-reverse !important
+    .container 
+        flex-direction: row-reverse
+.story-1.reverse
+    .text
+        margin-top: 3%
+.story-4.reverse 
+    .text
+        margin-bottom: 5%
+.story-5.reverse
+    .text
+        padding: 50px
+
+// Mobile styles
+@media (max-width: 800px)
+    .story-2
+        .left-side 
+            padding-right: 0
+            img
+                border-radius: 0 !important
+        p 
+            padding: 0 !important
+    .story-5
+        .container
+            flex-direction: column-reverse
+        &.reverse
+            .text
+                padding: $basePadding 0px 
+    

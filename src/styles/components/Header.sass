@@ -1,0 +1,105 @@
+/// HEADER
+
+.header
+    background-color: $LightedBlack
+    padding: 15px 20px 
+    overflow-y: hidden
+    .logo
+        svg
+            width: 70px
+    .balance
+        padding-top: 7px
+        padding-bottom: 7px
+        left: -15px
+        border-radius: 30px
+        .replenishmentBtn
+            position: absolute
+            left: 80%
+            height: 35px
+            svg
+                height: 42px
+
+
+.header-2
+    padding: 20px 0 
+    .logo
+        width: fit-content !important
+    .logo-svg
+        height: 58px !important
+        padding: 10px 0
+        transition: all .2s linear
+    .m-mob
+        margin-bottom: 15px
+    &.down
+        top: -102px
+    .bar
+        display: block
+        width: 30px
+        height: 3px
+        margin-bottom: 5px
+        background: $Black
+
+    .burger
+        display: block
+        outline: 0
+        border: 0
+        overflow: visible
+        background: none
+        color: #000
+        span
+            transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+            background-color: #000
+        &:focus
+            border: medium none rgb(111, 255, 176)
+            box-shadow: rgb(111, 255, 176) 0 0 2px 2px
+            outline: 0
+        &.active
+            span:nth-of-type(1)
+                transform: rotate(45deg) translate(8px, 5px)
+                width: 30px
+            span:nth-of-type(2)
+                opacity: 0
+                pointer-events: none
+            span:nth-of-type(3)
+                transform: rotate(-45deg) translate(7px, -3px)
+                width: 30px
+    .logo-mobile
+        display: none !important
+    .header-top
+        background: #fff
+    .info
+        // width: 50%
+    a
+        font-weight: 400
+        transition: all 0.2s ease-out
+        &:hover
+            opacity: 0.69
+
+    .header-bottom
+        a, p
+            cursor: pointer
+            color: black
+            transition: all 0.2s ease-out
+            &:hover
+                opacity: 0.69
+
+@media(max-width: 1000px)
+
+
+    .info
+        display: none
+        &.active
+            display: flex
+            position: relative
+            bottom: 60px
+    .header-bottom
+        display: none
+        a, p
+            font-size: $baseFontSize * 1.4
+            color: black !important
+            z-index: 1000
+        &.active
+            display: flex
+            flex-direction: column
+            background-color: $White
+            color: $Black

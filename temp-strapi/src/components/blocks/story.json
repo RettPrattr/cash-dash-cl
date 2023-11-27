@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_common_stories",
+  "info": {
+    "displayName": "Story",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "richtext"
+    },
+    "text2": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "integer"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "fullSize": {
+      "type": "boolean"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

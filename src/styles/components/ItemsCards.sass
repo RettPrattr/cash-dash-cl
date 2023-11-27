@@ -1,0 +1,41 @@
+
+.ItemCards
+    .image-wrapper  
+        height: 20vw
+        // overflow: hidden
+    .cards 
+        flex-wrap: wrap
+        a
+            width: 100%
+        
+    p
+        opacity: 0.69
+
+    &-1
+        .image-wrapper  
+            height: 25vw
+            .overlay
+                opacity: 0
+                position: absolute
+                top: 0
+                left: 0
+        .cards 
+            a:hover
+                .overlay
+                    opacity: 1
+                h3, p
+                    opacity: 0.5
+            
+    &-3
+        .image-wrapper  
+            height: 20vw
+
+// .ItemCards-2
+//     .image-wrapper
+//         border-radius: $baseRadius
+
+
+@media (max-width: 800px)
+    .ItemCards
+        .image-wrapper  
+            height: 60vw !important

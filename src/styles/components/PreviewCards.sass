@@ -1,0 +1,36 @@
+.PreviewCards-1
+    overflow: hidden
+    color: $Black
+    a
+        padding-right: 0.9%
+        padding-left: 0.9%
+    .previewCard-1
+        
+    .bc-photo
+        width: 100%
+
+.PreviewCards-2
+    overflow: hidden
+    // .h-special
+    //     height: 25% !important
+    // .last-card-container
+    .previewCard-2
+        height: auto
+        div
+            height: 100%
+
+    .last-card
+        border: 1px solid $White
+        p,h2,h3
+            color: $White
+
+@media (max-width: 800px)
+    .PreviewCards-1
+        .previewCard-1
+            // height: 240px
+    .PreviewCards-2
+        .last-card-container
+            height: 46px
+            align-items: center !important
+        .previewCard-2:not(.last-card-container)
+            height: 240px

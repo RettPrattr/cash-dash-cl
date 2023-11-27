@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_first_choises",
+  "info": {
+    "displayName": "firstChoise"
+  },
+  "options": {},
+  "attributes": {
+    "choiseItem": {
+      "type": "string"
+    }
+  }
+}

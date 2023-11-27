@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_big_texts",
+  "info": {
+    "displayName": "BigText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "text3": {
+      "type": "text"
+    },
+    "text4": {
+      "type": "text"
+    },
+    "bcFill": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "components_pages",
+  "info": {
+    "singularName": "components-page",
+    "pluralName": "components-pages",
+    "displayName": "components page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.brand-footer",
+        "blocks.big-text",
+        "blocks.text-cards",
+        "blocks.slider-block",
+        "blocks.form"
+      ]
+    }
+  }
+}

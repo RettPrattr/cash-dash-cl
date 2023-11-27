@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_slider_blocks",
+  "info": {
+    "displayName": "SliderBlock"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
